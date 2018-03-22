@@ -132,7 +132,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
 
             infoImg.src = this.src;
             infoParagraph.title = this.title;
-            infoLink.link = this.link;
+            infoLink.href = this.link;
             infoCreator.creator = this.creator;
             infoDescription.description = this.description;
             infoProvenance.provenance = this.provenance;

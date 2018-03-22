@@ -20,5 +20,6 @@ express()
 
 function index(req, res) {
   //res.status(404).render('not-found.ejs')
+  console.log('executed at localhost:8000')
   res.render('index.ejs')
 }
