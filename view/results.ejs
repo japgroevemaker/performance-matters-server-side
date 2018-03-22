@@ -12,6 +12,9 @@
 </form>
 <p id="error">Uw zoek opdracht heeft geen resultaten opgeleverd</p>
 <section id="images">
+  <p>
+    <%=results.results.bindings[0].description.value%>
+  </p>
 </section>
 <div class="loader"></div>
 <% include tail.ejs %>
